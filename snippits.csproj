@@ -31,15 +31,6 @@
     <RootNamespace>snippits</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
     <None Include=".git\config" />
@@ -62,6 +53,7 @@
     <Content Include="js\link-to-tabs.js" />
     <Content Include="js\read-more-less-text-toggle.js" />
     <Content Include="js\string-present-in-url.js" />
+    <Content Include="www\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".git\objects\info\" />
